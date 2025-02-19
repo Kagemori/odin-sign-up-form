@@ -15,6 +15,25 @@
     height: 100vh;
 }
 
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#logo-img{
+    width: 100px;
+    height: 100px;
+}
+
+#logo-name{
+    color: azure;
+    font-size: 80px;
+}
+
 #form-background{
     width: 70vw;
     height: 100vh;

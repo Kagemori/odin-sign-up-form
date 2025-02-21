@@ -72,3 +72,18 @@ form{
     padding: 20px;
     margin-bottom: 10px;
 }
+
+#form-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: first baseline;
+}
+
+#form-submit input{
+    width: 200px;
+    padding: 10px 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

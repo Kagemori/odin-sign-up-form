@@ -38,3 +38,17 @@
     width: 70vw;
     height: 100vh;
 }
+
+form{
+    display: flex;
+    width: 60vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-input{
+    display: flex;
+    width: 25vw;
+    flex-direction: column;
+    margin-bottom: 10px;
+}

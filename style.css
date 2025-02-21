@@ -35,20 +35,40 @@
 }
 
 #form-background{
+    display: flex;
+    flex-direction: column;
     width: 70vw;
     height: 100vh;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+#form-header{
+    padding: 50px;
+    width: 40vw;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+#form h2{
+    padding: 20px 50px;
 }
 
 form{
     display: flex;
-    width: 60vw;
+    width: 40vw;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .form-input{
     display: flex;
-    width: 25vw;
+    width: 15vw;
     flex-direction: column;
+    padding: 20px;
     margin-bottom: 10px;
 }
